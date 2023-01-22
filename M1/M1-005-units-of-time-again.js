@@ -3,14 +3,9 @@ const secondsMinutes = 60;
 const secondsHours = secondsMinutes * 60;
 const secondsDay = secondsHours * 24;
 
-let time_SecondIn,
-  time_Second,
-  time_SecondMinute,
-  time_SecondHours,
-  time_SecondDay;
+let time_SecondIn, time_Second, time_SecondMinute, time_SecondHours, time_SecondDay;
 
 //time_SecondIn = 274259
-
 time_SecondIn = +prompt(
   "Please enter the seconds you want to display in the format D:HH:MM:SS = "
 );

@@ -30,23 +30,18 @@ console.log("Total Old Bread Bread Purchased " + "€ ", totalOldBreadPurchased)
 
 /* 
 # Pane vecchio di un giorno
-
 Un panificio vende 
 - pagnotte a 3,49 euro l'una.
 - pane raffermo scontato del 60%.
-
 Scrivere un programma che inizi leggendo
 - numero di pagnotte di pane raffermo acquistate dall'utente.
-
 Quindi il tuo programma dovrebbe visualizzare
 - prezzo normale per il pane, 
 - lo sconto perché è vecchio di un giorno 
 - il prezzo totale.
-
 Ciascuno di questi importi deve essere visualizzato 
 - su una propria riga
 - con un'etichetta appropriata.
-
 Tutti i valori devono essere visualizzati 
 - utilizzando due cifre decimali 
 - i punti decimali in tutti i numeri devono essere allineati quando l'utente immette valori ragionevoli.
