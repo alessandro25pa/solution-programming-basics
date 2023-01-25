@@ -1,0 +1,41 @@
+// dichiari variabili utilizzate
+let date_BirthUser, dey_BirthUser, month_BirthUser;
+
+
+dateBirthUser = prompt(`Enter the date of birth in the format "DD/Month" `).toLowerCase();
+
+// utilizzando la funzione split() trasformo la data di nascita in un array per poi prelevare il giorno e il mese di nascita 
+dateBirthUser = dateBirthUser.split("");
+
+//prelevo il giorno  sommando il primo e secondo elementodell'array  creato spittando la data e il mese immesso
+dey_BirthUser = dateBirthUser[0] + dateBirthUser[1]
+
+//prelevo il mese  sommando il terzo, quarto, quinto elemento dell'array  creato spittando la data e il mese immesso
+month_BirthUser = dateBirthUser[3] + dateBirthUser[4] + dateBirthUser[5]
+
+
+ if (dey_BirthUser >= 22 && month_BirthUser == 'dec' || dey_BirthUser <= 19 && month_BirthUser == 'jan') {
+  alert(`\nCapricorn \u{2651}\n`)
+} else if (dey_BirthUser >= 20 && month_BirthUser == 'jan' || dey_BirthUser <= 18 && month_BirthUser == 'feb') {
+  alert(`\nAquarius \u{2652}\n`)
+} else if (dey_BirthUser >= 19 && month_BirthUser == 'feb' || dey_BirthUser <= 20 && month_BirthUser == 'mar') {
+  alert(`\nPisces \u{2653}\n`)
+} else if (dey_BirthUser >= 21 && month_BirthUser == 'mar' || dey_BirthUser <= 19 && month_BirthUser == 'apr') {
+  alert(`\nAries \u{2648}\n`)
+} else if (dey_BirthUser >= 20 && month_BirthUser == 'apr' || dey_BirthUser <= 20 && month_BirthUser == 'may') {
+  alert(`\nTaurus \u{2649}\n`)
+} else if (dey_BirthUser >= 21 && month_BirthUser == 'may' || dey_BirthUser <= 20 && month_BirthUser == 'jun') {
+  alert(`\nGemini \u{264A}\n`)
+} else if (dey_BirthUser >= 21 && month_BirthUser == 'gun' || dey_BirthUser <= 22 && month_BirthUser == 'jul') {
+  alert(`\nCancer \u{264B}\n`)
+} else if (dey_BirthUser >= 23 && month_BirthUser == 'jul' || dey_BirthUser <= 22 && month_BirthUser == 'aug') {
+  alert(`\nLeo \u{26CE}\n`)
+} else if (dey_BirthUser >= 23 && month_BirthUser == 'aug' || dey_BirthUser <= 22 && month_BirthUser == 'set') {
+  alert(`\nVirgo \u{264D}\n`)
+} else if (dey_BirthUser >= 23 && month_BirthUser == 'set' || dey_BirthUser <= 22 && month_BirthUser == 'oct') {
+  alert(`\nLibra \u{264E}\n`)
+} else if (dey_BirthUser >= 23 && month_BirthUser == 'oct' || dey_BirthUser <= 21 && month_BirthUser == 'nov') {
+  alert(`\nScorpio \u{264F}\n`)
+} else if (dey_BirthUser >= 22 && month_BirthUser == 'nov' || dey_BirthUser <= 21 && month_BirthUser == 'dec') {
+  alert(`\nSagittarius \u{2650}\n`)
+} 
